@@ -1,0 +1,23 @@
+.wrap-header{
+    background-color: #FFBA08;
+}
+
+.wrap-pay-page .myForm {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.wrap-checkbox{
+    display: flex;
+    color:grey;
+    font-size: 15px;
+}
+
+.text-checkbox{
+
+}
+
+.checkBox{
+    margin-top:5px;
+    margin-right: 10px;
+}

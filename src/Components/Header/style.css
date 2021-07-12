@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #317889!important;
+  }
+
+.background-img{
+  height: 900px;
+  color: #FCA311;
+  background-size: cover;
+  text-align: center;
+}
+.well-come{
+  font-family: 'Metal Mania', cursive;
+  padding-top: 100px;
+  font-size: 100px;
+}
+@media (max-width: 400px)
+{
+  .navbar{
+    padding: 0px 10px 3px 10px!important;
+  }
+  .CT{
+    font-size: 15px!important;
+  }
+  .navbar-toggler{
+    padding: 0px 0px 0px 0px!important;
+    font-size: 15px!important;
+  }
+  .Cart-Header{
+    font-size: 15px!important;
+    color: rgba(0,0,0,.5);
+  }
+  .ShowPr{
+    font-size: 15px!important;
+  }
+  .navbar-toggler-icon{
+    width: 20px!important;
+  }
+}

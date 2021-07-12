@@ -1,0 +1,217 @@
+
+@media (min-width: 600px){
+/*logo*/
+
+    .wrap-crosstech{
+        flex-flow: 1;
+        font-weight: 900;
+        color: rgb(6, 61, 22);
+    }
+
+    /*BlockIcon*/
+    .wrap-BlockIcon{
+        display: flex;
+    }
+
+    .wrap-icon{
+            width: 35px;
+            height: 35px;
+            background: #317889;
+            -moz-border-radius: 25px;
+            -webkit-border-radius: 25px;
+            --border-radius: 25px;
+            border-radius: 25px;
+            margin-right: 5px;
+    }
+    .wrap-icon:hover{
+        background: #0e3842;
+        transition: 0.7s;
+    }
+
+    .icon{
+        height: 25px;
+        color: white!important;
+    }
+
+    .icon-facebook{
+        padding-right: 15px;
+        padding-top: 4px
+    }
+    .icon-twitter{
+        padding-right: 41px;
+        padding-top: 4px
+    }
+    .icon-instagram{
+        padding-right: 34px;
+        padding-top: 4px
+    }
+
+    /*index*/
+    .wrap-all{
+        display: flex;
+        height: 150px;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap .wrap-logo{
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .wrap .wrap-BlockIcon{
+        flex-grow: 0.2;
+        margin: 0 auto;
+    }
+
+    .wrap .wrap-Cart{
+        flex-grow: 0.2;
+        margin: 0 auto;
+    }
+    .Cart-Header{
+        display: none;
+    }
+}
+@media (max-width: 600px) and (min-width: 360px){
+    .wrap-crosstech{
+        flex-flow: 1;
+        font-size: 30px;
+        font-weight: 900;
+        color: rgb(6, 61, 22);
+    }
+    
+    /*BlockIcon*/
+    .wrap-BlockIcon{
+        display: flex;
+    }
+    
+    .wrap-icon{
+            width: 35px;
+            height: 35px;
+            background: #317889;
+            -moz-border-radius: 25px;
+            -webkit-border-radius: 25px;
+            --border-radius: 25px;
+            border-radius: 25px;
+            margin-right: 5px;
+    }
+    .wrap-icon:hover{
+        background: #0e3842;
+        transition: 0.7s;
+    }
+    
+    .icon{
+        height: 25px;
+        color: white!important;
+    }
+    
+    .icon-facebook{
+        padding-right: 15px;
+        padding-top: 4px
+    }
+    .icon-twitter{
+        padding-right: 41px;
+        padding-top: 4px
+    }
+    .icon-instagram{
+        padding-right: 34px;
+        padding-top: 4px
+    }
+    
+    /*index*/
+    .wrap-all{
+        display: flex;
+        height: 90px;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap .wrap-logo{
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    .wrap .wrap-BlockIcon{
+        flex-grow: 0.2;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .wrap-crosstech{
+        flex-flow: 1;
+        font-size: 25px;
+        font-weight: 900;
+        color: rgb(6, 61, 22);
+    }
+    
+    /*BlockIcon*/
+    .wrap-BlockIcon{
+        display: flex;
+    }
+    
+    .wrap-icon{
+            width: 35px;
+            height: 35px;
+            background: #317889;
+            -moz-border-radius: 25px;
+            -webkit-border-radius: 25px;
+            --border-radius: 25px;
+            border-radius: 25px;
+            margin-right: 5px;
+    }
+    .wrap-icon:hover{
+        background: #0e3842;
+        transition: 0.7s;
+    }
+    
+    .icon{
+        height: 25px;
+        color: white!important;
+    }
+    
+    .icon-facebook{
+        padding-right: 15px;
+        padding-top: 4px
+    }
+    .icon-twitter{
+        padding-right: 41px;
+        padding-top: 4px
+    }
+    .icon-instagram{
+        padding-right: 34px;
+        padding-top: 4px
+    }
+    
+    /*index*/
+    .wrap-all{
+        display: flex;
+        height: 65px;
+        justify-content: center;
+    }
+    .wrap{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrap .wrap-logo{
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    .wrap .wrap-BlockIcon{
+        display: none!important;
+    }
+
+}

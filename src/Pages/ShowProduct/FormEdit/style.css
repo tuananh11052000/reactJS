@@ -1,0 +1,66 @@
+@media (min-width: 1320px){
+    .wrap-form-edit{
+        position: absolute;
+        width:30%;
+        background-color: #4C8577;
+        top: 20px;
+        left: 35%;
+        right: 35%;
+        border-radius: 5px;
+    }
+    .form-edit{
+        margin: 10px 10px 10px 10px;
+    }
+    .button-submit{
+        margin-right: 10px;
+    }
+}
+@media (max-width: 1320px) and (min-width:700px){
+    .wrap-form-edit{
+        position: absolute;
+        width:34%;
+        background-color: #4C8577;
+        top: 13px;
+        left: 33%;
+        right: 33%;
+        border-radius: 5px;
+    }
+    .form-edit{
+        margin: 10px 10px 10px 10px;
+    }
+    .form-control{
+        font-size: 11px!important;
+        padding-top:0px!important;
+        padding-bottom: 0px!important;
+    }
+    .input_1{
+        font-size: 11px;
+    }
+    .button-submit{
+        margin-right: 5px;
+    }
+}
+@media (max-width: 700px) {
+    .wrap-form-edit{
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        background-color: #4C8577;
+        margin-left: 0px;
+    }
+    .form-edit{
+        margin: 10px 10px 10px 10px;
+    }
+    .form-control{
+        font-size: 11px!important;
+        padding-top:0px!important;
+        padding-bottom: 0px!important;
+    }
+    .input_1{
+        font-size: 11px;
+    }
+    .button-submit{
+        margin-right: 5px;
+    }
+}

@@ -1,0 +1,40 @@
+.Wrap_form {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+  }
+
+.wrap-icon-success{
+  text-align: center;
+  justify-content: center;
+}
+
+.svg-inline--fa{
+    color: green;
+    font-size: 500%;
+    text-align: center;
+}
+
+.wrap-button-continue{
+  padding-top: 20px;
+}
+.wrap-forminput{
+  background-image: url("1.jpg");
+  background-size: cover;
+  height: 700px;
+  color: rgb(44, 105, 197);
+}
+
+.wrap-buttom{
+  display: flex;
+}
+
+@media(max-width: 350px)
+{
+  .wrap-forminput{
+    background-image: url("1.jpg");
+  }
+  .name-edit{
+    font-size: 14px;
+  }
+}

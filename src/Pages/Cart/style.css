@@ -1,0 +1,344 @@
+@media (min-width: 1130px)
+{
+    .price{
+        display: none;
+    }
+    .infomation-product{
+        flex-grow: 1;
+        margin-left:30px;
+        height: 150px;
+    }
+    .image-product{
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        background: rgb(26,10,29);
+        background: linear-gradient(201deg, rgba(26,10,29,1) 0%, rgba(255,195,0,1) 100%, rgba(255,198,0,1) 100%);   
+    }
+    .cart-product{
+        display: flex;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .wrap-price-info{
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+    }
+
+    .wrap-price-info div.wrap-info{
+        display: inline-block;
+        flex-grow: 1;
+        height: 150px;
+    }
+    .quantity{
+        display:inline-block;
+    }
+    .wrap-price{
+        margin-top: 40px;
+    }
+    .wrap-price-info .wrap-info .buy-now{
+        margin-top: 48px;
+    }
+
+    .MuiIconButton-root:focus{
+        outline: 0px;
+    }
+    .wrap-body-cartpage{
+        display: flex;
+    }
+    .wrap-box-fee{
+        height: 200px;
+        background-color: #457b9d;
+        border-radius: 10px;
+        margin-right: 40px;
+        margin-top: 40px;
+    }
+    .Getdata{
+        flex-grow: 0.95;
+    }
+
+    .provisional{
+        font-family: 'MuseoModerno', cursive;
+        font-size: 20px;
+        margin: 15px 12px 12px 12px;
+        padding-top: 15px
+    }
+
+    .wrap-button{
+        padding-top: 10px
+    }
+
+    .Getdata{
+        font-family: 'MuseoModerno', cursive;
+    }
+    .plus-reduce{
+        display: none;
+    }
+}
+
+@media (max-width: 1130px) and (min-width: 800px)
+{
+    .price{
+        display: none;
+    }
+    .icon-delete{
+        padding-bottom: 5px;
+    }
+    .icon-plus{
+        font-size: 16px !important;
+        padding-top: 14px;
+        margin-left: 8px;
+        margin-right: 5px;
+    }
+    .icon-reduce{
+        font-size: 16px !important;
+        padding-top: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .infomation-product{
+        flex-grow: 1;
+        margin-left:30px;
+        height: 150px;
+    }
+    .image-product{
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+        background: rgb(26,10,29);
+        background: linear-gradient(201deg, rgba(26,10,29,1) 0%, rgba(255,195,0,1) 100%, rgba(255,198,0,1) 100%);   
+    }
+    .cart-product{
+        height: 100px;
+        display: flex;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .wrap-price-info{
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        font-size: 13px;
+    }
+
+    .wrap-price-info div.wrap-info{
+        display: inline-block;
+        flex-grow: 1;
+        height: 150px;
+    }
+    .quantity{
+        display:inline-block;
+    }
+    .wrap-price{
+        font-size: 13px;
+        margin-top: 40px;
+    }
+    .wrap-price-info .wrap-info .buy-now{
+        margin-top: 30px;
+        font-size: 13px
+    }
+
+    .MuiIconButton-root:focus{
+        outline: 0px;
+    }
+    .wrap-body-cartpage{
+        display: flex;
+    }
+    .wrap-box-fee{
+        height: 200px;
+        background-color: #457b9d;
+        border-radius: 10px;
+        margin-right: 40px;
+        margin-top: 40px;
+    }
+    .Getdata{
+        flex-grow: 0.95;
+    }
+
+    .provisional{
+        font-family: 'MuseoModerno', cursive;
+        font-size: 13px;
+        margin: 15px 12px 12px 12px;
+        padding-top: 15px
+    }
+
+    .wrap-button{
+        padding-top: 10px
+    }
+
+    .Getdata{
+        font-family: 'MuseoModerno', cursive;
+    }
+    .plus-reduce{
+        display: none
+    }
+}
+@media (max-width: 800px) and ( min-width:590px){
+    .price{
+        display: none;
+    }
+    .icon-delete{
+        padding-bottom: 5px;
+    }
+    .icon-plus{
+        font-size: 16px !important;
+        padding-top: 14px;
+        margin-left: 8px;
+        margin-right: 5px;
+    }
+    .icon-reduce{
+        font-size: 16px !important;
+        padding-top: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .infomation-product{
+        flex-grow: 1;
+        margin-left:30px;
+        height: 150px;
+    }
+    .image-product{
+        width: 100px;
+        height: 100px;
+        border-radius: 4px;
+        background: rgb(26,10,29);
+        background: linear-gradient(201deg, rgba(26,10,29,1) 0%, rgba(255,195,0,1) 100%, rgba(255,198,0,1) 100%);   
+    }
+    .cart-product{
+        display: flex;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 30px;
+        height: 100px;
+    }
+    .wrap-price-info{
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        font-size: 13px;
+    }
+
+    .wrap-price-info div.wrap-info{
+        display: inline-block;
+        flex-grow: 1;
+        height: 150px;
+    }
+    .quantity{
+        display:inline-block;
+        font-size: 13px;
+    }
+    .wrap-price{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+
+    .MuiIconButton-root:focus{
+        outline: 0px;
+    }
+    .wrap-body-cartpage{
+        display: flex;
+    }
+    .Getdata{
+        flex-grow: 0.95;
+    }
+
+    .wrap-button{
+        padding-top: 10px
+    }
+
+    .Getdata{
+        font-family: 'MuseoModerno', cursive;
+    }
+    .box-fee{
+        display: none;
+    }
+    
+    .plus-reduce{
+        display: none;
+    }
+}
+@media (max-width: 590px) {
+    .infomation-product{
+        flex-grow: 1;
+        margin-left:30px;
+        height: 150px;
+    }
+    .image-product{
+        width: 80px;
+        height: 80px;
+        border-radius: 3px; 
+        padding-bottom: 10px;  
+    }
+    .cart-product{
+        display: flex;
+        width: 95%;
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 80px;
+    }
+    .wrap-price-info{
+        display: flex;
+        flex-grow: 1;
+        height: 100%;
+        font-size: 10px;
+    }
+    .unit{
+        margin-bottom: 0px!important;
+    }
+    .wrap-price-info div.wrap-info{
+        display: inline-block;
+        flex-grow: 1;
+        height: 150px;
+    }
+    .quantity{
+        display:inline-block;
+        font-size: 13px;
+    }
+    .wrap-price{
+        display: none;
+    }
+
+    .MuiIconButton-root:focus{
+        outline: 0px;
+    }
+    .wrap-body-cartpage{
+        display: flex;
+    }
+    .Getdata{
+        flex-grow: 0.95;
+    }
+
+    .wrap-button{
+        padding-top: 10px
+    }
+
+    .Getdata{
+        font-family: 'MuseoModerno', cursive;
+    }
+    .box-fee{
+        display: none;
+    }
+    .button-plus-reduce-cart{
+        padding: 3px 3px 3px 3px !important;
+        width: 40px;
+        font-size: 7px!important;
+    }
+    .nono{
+        margin-bottom: 0rem!important;
+    }
+    .reduce{
+        margin-left: 5px;
+    }
+    .plus-reduce{
+        margin-top: -5px;
+    }
+    .Getdata{
+        margin-top: 8px;
+    }
+    .cart-product{
+        margin: 0 auto;
+    }
+}

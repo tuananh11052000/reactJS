@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "biscayne",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

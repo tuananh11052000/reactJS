@@ -1,0 +1,19 @@
+.wrap-detail{
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    color: rgb(121, 116, 116);
+    background-color: rgb(255, 251, 8);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+    padding: 20px 20px 20px 20px;
+}
+
+.wrap-detail .wrap-image{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    border-radius: 10px;
+}
